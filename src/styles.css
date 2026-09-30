@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #222;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+button {
+    padding: 9px 14px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #222;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #f5f5f5;
+}
+
+form button[type="submit"] {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #fff;
+}
+
+form button[type="submit"]:hover {
+    background: #1d4ed8;
+}
+
+#searchInput {
+    margin-bottom: 20px;
+}
+
+#userList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#userList > div {
+    border: 1px solid #ddd;
+    padding: 18px;
+}
+
+#userList h2 {
+    margin: 0 0 10px;
+    font-size: 19px;
+}
+
+#userList p {
+    margin: 6px 0;
+    color: #555;
+}
+
+.view-btn {
+    margin-top: 10px;
+}
+
+.edit-btn {
+    margin-top: 10px;
+}
+
+.delete-btn {
+    margin-top: 10px;
+    color: #c62828;
+}
+
+#userDetails {
+    border: 1px solid #ddd;
+    padding: 18px;
+    margin-bottom: 20px;
+}
+
+#userDetails h2 {
+    margin-top: 0;
+}
+
+#closeDetails {
+    margin-top: 10px;
+}
+
+#loading {
+    color: #555;
+}
+
+#error {
+    color: #c62828;
+    margin: 15px 0;
+}
